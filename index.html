@@ -1,62 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Mi pagina web</title>
     </head>
     <body>
         <header>
+           <div id="title">
             <h1>Mi pagina web</h1> 
-        
+           </div> 
+           
+        <div id="title2">
             <span>HOME</span>
             <span>SECCION 1</span>
             <span>SECCION 2</span>
+        </div>
+            
         </header>
          
-        <main>
-        <section>
-            <article>
-                
+    <main>
+      <section>
+        <article>
+         <div id="container">
+
+            <div class="cards"> 
                 <h2> Titulo seccion 1</h2>
 
                 <h3> Subtitulo 1</h3>
-           <div>
-                <img src="./zoom.PNG" /> 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam numquam deleniti quos. Voluptas quos nam distinctio obcaecati ipsum, laborum pariatur provident harum unde dignissimos voluptate quod ipsa qui quis voluptatum!</p>
-           </div> 
-        </article>
            
-            <article>
+                <img src="./zoom.PNG" class="foto"/> 
+                <p>Primero que todo</p>
+           </div> 
+
+           <div class="cards">
                 <h2> Titulo seccion 2</h2>
 
             <h3> Subtitulo 2</h3>
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam numquam deleniti quos. Voluptas quos nam distinctio obcaecati ipsum, laborum pariatur provident harum unde dignissimos voluptate quod ipsa qui quis voluptatum!</p>
+            
+                <img src="./zoom.PNG" class="foto"/> 
+                <p>Segundo que todo</p>
             </div>
+
+         </div>
            
-            </article>  
+        </article>  
 
             <article>
-                <h2> Titulo seccion 3</h2>
+        <div id="container2">
+            <h2> Titulo seccion 3</h2>
             
             <h3> Subtitulo 3</h3>
             <ol>
-                <li>Cosa 1</li>
-                <li>Cosa 2</li>
-                <li>Cosa 3</li>
+                    <li class="itemsencuesta">Cosa 1</li>
+                    <li class="itemsencuesta">Cosa 2</li>
+                    <li class="itemsencuesta">Cosa 3</li>
             </ol>
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam numquam deleniti quos. Voluptas quos nam distinctio obcaecati ipsum, laborum pariatur provident harum unde dignissimos voluptate quod ipsa qui quis voluptatum!</p>
-            </div>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam numquam deleniti quos. Voluptas quos nam distinctio obcaecati ipsum, laborum pariatur provident harum unde dignissimos voluptate quod ipsa qui quis voluptatum!</p>
+                 </div>
+        </div>
+               
             </article>
             
         </section>
         </main>
         
         <footer>
-          <p>
-            Redes sociales
-          </p>  
+          <div id="footer">
+            <p>
+                Redes sociales
+            </p>  
             <a href="./Formulario.html">Formulario</a>
+          </div>
         </footer>
     </body>
 </html>
